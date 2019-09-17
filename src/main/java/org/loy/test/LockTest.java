@@ -18,6 +18,8 @@ public class LockTest {
     }
 
     public static void main(String[] args) {
+
+        // 两个线程测试lock是否线程安全
         CountDownLatch countDownLatch = new CountDownLatch(2);
         LockTest test = new LockTest();
         for(int i=0;i<2;i++){
