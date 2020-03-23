@@ -1,2 +1,5 @@
 /demo/target
 /.idea
+/loy-api/target
+/loy-mq-listener/target
+/loy-provider/target
